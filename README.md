@@ -13,9 +13,14 @@ Group project to develop a client's website
 
 # Additional Deliverables
 <ul>
-  <li>Figma UX design</li>
+  <li>Figma UX Design</li>
   <ul>
-    <li>https://www.figma.com/file/gPJOb3qGTa00E1q9DBNCw7/CSCI4750_Design?node-id=0%3A1&t=krywDUsZNQrr9tVQ-1</li>
+    <li>https://trello.com/invite/b/4uEkiefx/ATTI214723c7dec2fd8a81e6d0a03882d998198EF3C7/csci4750realtorwebsite</li>
+      </ul>
+    <li>Trello Tracking</li>
+  <ul>
+    <li>https://docs.google.com/document/d/1KVcWNHFVW2bSO3Q_MJ92YLvec1-3aNoWmoWlbL15XuM/edit?usp=sharing</li>
+  </ul>
   </ul>
     <li>Study Phase Report</li>
   <ul>
