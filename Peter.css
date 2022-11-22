@@ -4,8 +4,6 @@ header {
 	border-radius: 20px;
 	margin: 5px;
 	box-sizing: border-box;
-	border: 5px solid rgb(6, 243, 168);
-	background-color: rgb(6, 243, 168);
 }
 
 td {
@@ -13,7 +11,7 @@ td {
 }
 
 .desc {
-	margin-left: 100px;
+	margin-left: 90px;
 }
 
 .row-spacer {
@@ -21,8 +19,8 @@ td {
 }
 
 img {
-	width: 400px;
-	height: 400px;
+	width: 200px;
+	height: 200px;
 }
 
 p {
@@ -42,27 +40,22 @@ footer {
 	clear: both;
 }
 
-#navBarDiv{
-    display: block;
+#navBarDiv {
+	display: block;
 }
 
-#navBarDiv table{
-    margin-right: auto;
-    margin-left: auto;
+#navBarDiv table {
+	margin-right: auto;
+	margin-left: auto;
 }
 
-#navBarDiv table tr td{
-    padding-top: 20px;
-    padding-right: 50px;
-    padding-bottom: 20px;
+#navBarDiv table tr td {
+	padding-top: 20px;
+	padding-right: 50px;
+	padding-bottom: 20px;
 }
 
 a {
-    text-decoration: none;
-    color: black;
-}
-
-#headerImageDiv{
-    display:block;
-    background-color: blue;
+	text-decoration: none;
+	color: black;
 }
