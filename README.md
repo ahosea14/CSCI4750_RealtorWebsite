@@ -19,7 +19,7 @@ Group project to develop a client's website
       </ul>
   <li>Trello Tracking</li>
     <ul>
-      <li>https://docs.google.com/document/d/1KVcWNHFVW2bSO3Q_MJ92YLvec1-3aNoWmoWlbL15XuM/edit?usp=sharing</li>
+      <li>https://trello.com/b/4uEkiefx/csci4750realtorwebsite</li>
     </ul>
   <li>Study Phase Report</li>
     <ul>
