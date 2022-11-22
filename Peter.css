@@ -1,0 +1,43 @@
+header {
+	padding: 40px;
+	width: 100%;
+	border-radius: 20px;
+	margin: 5px;
+	box-sizing: border-box;
+	border: 5px solid rgb(6, 243, 168);
+	background-color: rgb(6, 243, 168);
+}
+
+td {
+	padding: 50px;
+}
+
+.desc {
+	margin-left: 100px;
+}
+
+.row-spacer {
+	margin-top: 10px;
+}
+
+img {
+	width: 400px;
+	height: 400px;
+}
+
+p {
+	color: black;
+}
+
+body {
+	background-color: seashell;
+}
+
+h1 {
+	color: black;
+	text-align: center;
+}
+
+footer {
+	clear: both;
+}
