@@ -41,3 +41,28 @@ h1 {
 footer {
 	clear: both;
 }
+
+#navBarDiv{
+    display: block;
+}
+
+#navBarDiv table{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#navBarDiv table tr td{
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#headerImageDiv{
+    display:block;
+    background-color: blue;
+}
