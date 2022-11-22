@@ -15,7 +15,7 @@ Group project to develop a client's website
 <ul>
   <li>Figma UX Design</li>
   <ul>
-<li>https://trello.com/invite/b/4uEkiefx/ATTI214723c7dec2fd8a81e6d0a03882d998198EF3C7/csci4750realtorwebsite</li>
+<li>https://www.figma.com/file/gPJOb3qGTa00E1q9DBNCw7/CSCI4750_Design?node-id=0%3A1&t=2v5lSqOXtJkFMZiH-0</li>
       </ul>
   <li>Trello Tracking</li>
     <ul>
