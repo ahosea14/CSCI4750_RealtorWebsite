@@ -8,6 +8,7 @@ Group project to develop a client's website
   <li>Robert Crutchfield</li>
   <li>William Stewart</li>
   <li>Jack Brown</li>
+  <li>Matthew Abbot</li>
   <li>Mamadou Ndiaye</li>
 </ul>
 
