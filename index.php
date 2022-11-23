@@ -1,14 +1,8 @@
-<!DOCTYPE html>
+<?php
+    //This PHP function will just inject the html of the header into this document
+    include('./header.php');
+?>
 
-<html lang="en">
-
-<head>
-    <title>realtors</title>
-    <link rel="stylesheet" href="Peter.css">
-    <meta charset="utf-8">
-    <!---CSCI 4750-->
-
-</head>
 <body>
         <div id="navBarDiv">
             <table>
@@ -22,8 +16,8 @@
         <div id="headerImageDiv">
             <img src="images/familyGuy.jpg" alt="missing">
         </div>
-        <footer>
-        </footer>
-</body>
 
-</html>
+<?php
+    //This will inject the html of the footer file
+    include('./footer.php');
+?>
