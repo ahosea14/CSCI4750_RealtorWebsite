@@ -1,6 +1,17 @@
 /*
 Css for the nav bar
 */
+
+:root {
+	/* Color palette */
+	--DARK-PURPLE: #210124;
+	--BLUE: #2660A4;
+	--LIGHT-BLUE: #00AFB9;
+	--OFF-WHITE: #F5F1ED;
+	--GOLD: #FFD700;
+
+}
+
 #navBarDiv {
 	display: block;
 }
