@@ -31,6 +31,9 @@ Css for the nav bar
 #navBarDiv a {
 	color: var(--OFF-WHITE);
 	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
 #navBarDiv a:hover {
