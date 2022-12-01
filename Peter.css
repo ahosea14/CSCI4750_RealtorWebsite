@@ -14,6 +14,7 @@ Css for the nav bar
 
 #navBarDiv {
 	display: block;
+	background-color: var(--DARK-PURPLE);
 }
 
 #navBarDiv table {
@@ -25,6 +26,15 @@ Css for the nav bar
 	padding-top: 20px;
 	padding-right: 50px;
 	padding-bottom: 20px;
+}
+
+#navBarDiv a {
+	color: var(--OFF-WHITE);
+	text-decoration: none;
+}
+
+#navBarDiv a:hover {
+	color: var(--GOLD);
 }
 
 a {
