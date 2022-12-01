@@ -12,8 +12,13 @@ Css for the nav bar
 
 }
 
+#body {
+	background-color: var(--OFF-WHITE);
+}
+
 #navBarDiv {
 	display: flex;
+	position: relative;
 	align-items: center;
 	background-color: var(--DARK-PURPLE);
 	height: 8rem;
@@ -23,6 +28,10 @@ Css for the nav bar
 #navBarDiv table {
 	margin-right: auto;
 	margin-left: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	align-self: center;
 }
 
 #navBarDiv .company-name {
@@ -38,7 +47,8 @@ Css for the nav bar
 
 #navBarDiv table tr td {
 	padding-top: 20px;
-	padding-right: 50px;
+	padding-left: 2rem;
+	padding-right: 2rem;
 	padding-bottom: 20px;
 }
 
@@ -47,6 +57,7 @@ Css for the nav bar
 	text-decoration: none;
 	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
+	font-size: 1.5rem;
 	text-transform: uppercase;
 }
 
@@ -68,7 +79,7 @@ header {
 }
 
 h1 {
-	color: black;
+	color: var(--DARK-PURPLE);
 	text-align: center;
 }
 
@@ -77,7 +88,7 @@ td {
 }
 
 hr.divider {
-	border: 1px solid black;
+	border: 1px solid var(--GOLD);
 }
 
 /*
