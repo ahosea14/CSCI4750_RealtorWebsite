@@ -4,22 +4,36 @@ Css for the nav bar
 
 :root {
 	/* Color palette */
-	--DARK-PURPLE: #210124;
+	--DARK-PURPLE: #221C35;
 	--BLUE: #2660A4;
 	--LIGHT-BLUE: #00AFB9;
 	--OFF-WHITE: #F5F1ED;
-	--GOLD: #FFD700;
+	--GOLD: #DAA520;
 
 }
 
 #navBarDiv {
-	display: block;
+	display: flex;
+	align-items: center;
 	background-color: var(--DARK-PURPLE);
+	height: 8rem;
+	padding: 2rem;
 }
 
 #navBarDiv table {
 	margin-right: auto;
 	margin-left: auto;
+}
+
+#navBarDiv .company-name {
+	color: var(--OFF-WHITE);
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 2.25rem;
+	padding-left: 1.5rem;
+	padding-bottom: .25rem;
+	border-left: .5rem solid var(--GOLD);
 }
 
 #navBarDiv table tr td {

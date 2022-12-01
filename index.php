@@ -5,6 +5,7 @@
 
 <body>
         <div id="navBarDiv">
+        <span class="company-name">Real Realty Group</span>
             <table>
                 <tr>
                     <td><a href>Residential Properties</a></td>
