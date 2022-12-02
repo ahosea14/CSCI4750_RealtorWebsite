@@ -1,19 +1,68 @@
 /*
 Css for the nav bar
 */
+
+:root {
+	/* Color palette */
+	--DARK-PURPLE: #221C35;
+	--BLUE: #2660A4;
+	--LIGHT-BLUE: #00AFB9;
+	--OFF-WHITE: #F5F1ED;
+	--GOLD: #DAA520;
+
+}
+
+#body {
+	background-color: var(--OFF-WHITE);
+}
+
 #navBarDiv {
-	display: block;
+	display: flex;
+	position: relative;
+	align-items: center;
+	background-color: var(--DARK-PURPLE);
+	height: 8rem;
+	padding: 2rem;
 }
 
 #navBarDiv table {
 	margin-right: auto;
 	margin-left: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	align-self: center;
+}
+
+#navBarDiv .company-name {
+	color: var(--OFF-WHITE);
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 2.25rem;
+	padding-left: 1.5rem;
+	padding-bottom: .25rem;
+	border-left: .5rem solid var(--GOLD);
 }
 
 #navBarDiv table tr td {
 	padding-top: 20px;
-	padding-right: 50px;
+	padding-left: 2rem;
+	padding-right: 2rem;
 	padding-bottom: 20px;
+}
+
+#navBarDiv a {
+	color: var(--OFF-WHITE);
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+}
+
+#navBarDiv a:hover {
+	color: var(--GOLD);
 }
 
 a {
@@ -30,7 +79,7 @@ header {
 }
 
 h1 {
-	color: black;
+	color: var(--DARK-PURPLE);
 	text-align: center;
 }
 
@@ -39,12 +88,23 @@ td {
 }
 
 hr.divider {
-	border: 1px solid black;
+	border: 1px solid var(--GOLD);
 }
 
 /*
 Css for the descriptions of the realtors
 */
+
+.desc .profile-name {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2rem;
+	color: var(--DARK-PURPLE);
+	text-transform: uppercase;
+}
+
+.desc ul li {
+	list-style: none;
+}
 
 .desc {
 	margin-left: 90px;
@@ -77,4 +137,8 @@ Css for the footer. The only use of this is just to make sure the footer actuall
 
 footer {
 	clear: both;
+	background-color: var(--DARK-PURPLE);
+	color: var(--OFF-WHITE);
+	padding: 1rem;
+	font-family: 'Oswald', sans-serif;
 }
