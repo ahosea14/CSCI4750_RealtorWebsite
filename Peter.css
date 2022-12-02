@@ -78,6 +78,10 @@ header {
 	box-sizing: border-box;
 }
 
+#headerImageDiv img {
+	width:100%;
+}
+
 h1 {
 	color: var(--DARK-PURPLE);
 	text-align: center;

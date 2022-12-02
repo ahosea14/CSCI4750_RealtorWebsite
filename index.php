@@ -4,16 +4,10 @@
 ?>
 
 <body>
-        <div id="navBarDiv">
-        <span class="company-name">Real Realty Group</span>
-            <table>
-                <tr>
-                    <td><a href>Residential Properties</a></td>
-                    <td><a href>Realtor Profiles</a></td>
-                    <td><a href>Contact</a></td>
-                </tr>
-            </table>
-        </div>
+<?php
+    //This will inject the html from the navBar file
+    include('./navBar.php');
+?>
         <div id="headerImageDiv">
             <img src="images/familyGuy.jpg" alt="missing">
         </div>

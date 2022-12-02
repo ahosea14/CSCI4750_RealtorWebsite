@@ -6,7 +6,6 @@
     <title>Realtors</title>
     <link rel="stylesheet" href="Peter.css">
     <meta charset="utf-8">
-    <!---Name:Jack Brown -->
     <!--Course: CSCI 4750 -->
     <!--Date: 11/21/22-->
 
