@@ -95,6 +95,17 @@ hr.divider {
 Css for the descriptions of the realtors
 */
 
+.desc .profile-name {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2rem;
+	color: var(--DARK-PURPLE);
+	text-transform: uppercase;
+}
+
+.desc ul li {
+	list-style: none;
+}
+
 .desc {
 	margin-left: 90px;
 }
