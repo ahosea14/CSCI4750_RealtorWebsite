@@ -45,6 +45,8 @@ Css for the nav bar
 	border-left: .5rem solid var(--GOLD);
 }
 
+
+
 #navBarDiv table tr td {
 	padding-top: 20px;
 	padding-left: 2rem;
@@ -63,6 +65,36 @@ Css for the nav bar
 
 #navBarDiv a:hover {
 	color: var(--GOLD);
+}
+
+
+#featuredProperty {
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+	background-image: url(images/property7.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-left: 15px;
+	
+}
+
+
+.propertyRows {
+	margin-bottom: 2.0em;
+}
+
+#formHolder {
+	width: 60%;
+	padding-top: 20px;
+	font-size: 15px;
+}
+
+.propertyImages:hover {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
 
 a {

@@ -1,16 +1,16 @@
-﻿<!DOCTYPE html>
+﻿<?php
+    //This PHP function will just inject the html of the header into this document
+    include('./header.php');
+?>
 
-<html lang="en">
+<body>
+    <!--Nav bar-->
+<?php
+    //This will inject the html from the navBar file
+    include('./navBar.php');
+?>
 
-<head>
-    <title>Admin Page 1</title>
-    <link rel="stylesheet" href="main.css">
-    <meta charset="utf-8">
-
-    <!--- import for bootstrap css-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
-          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+<body>
     <script>
         //Javascript
         function reveal(elem) {
@@ -27,30 +27,12 @@
             elem.style.display = "block";
         }
     </script>
-
-</head>
-
-<body>
-    <!--Nav bar-->
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="index.html">RealRealtors</a>
-            </div>
-            <ul class="nav navbar-nav">
-                <li class="active">
-                    <a href="index.html">Return To Homepage</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <header>
         <h1>Admin Menu</h1>
         <hr class="divider">
     </header>
     <!--End of nav bar-->
     <main>
-        <div class="container ">
+        <div class="container" style="min-height: 760px">
             <div class="row">
                 <div class="text-center">
                     <div class=" btn-group-lg">
@@ -196,6 +178,7 @@
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
+					<br><br>
 
                 </div>
 
@@ -204,14 +187,9 @@
         </div>
 
     </main>
-    <footer>
-        <hr>
-        © Real Realtors 2022
-    </footer>
-    <!--- import for bootstrap jquery, popper, javascript-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
 
-</html>
+
+<?php
+    //This will inject the html of the footer file
+    include('./footer.php');
+?>
