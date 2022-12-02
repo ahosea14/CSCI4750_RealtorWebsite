@@ -137,4 +137,8 @@ Css for the footer. The only use of this is just to make sure the footer actuall
 
 footer {
 	clear: both;
+	background-color: var(--DARK-PURPLE);
+	color: var(--OFF-WHITE);
+	padding: 1rem;
+	font-family: 'Oswald', sans-serif;
 }
