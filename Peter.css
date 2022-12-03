@@ -135,6 +135,11 @@ Css for the images of the realtors
 	width: 100%;
 }
 
+/*Css for contact info on contact.php*/
+.contact {
+	padding-left: 200px;
+}
+
 /*
 Css for the footer. The only use of this is just to make sure the footer actually goes at the bottom of the page. 
 */

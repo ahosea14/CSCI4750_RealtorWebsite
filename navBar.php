@@ -5,7 +5,7 @@
                 <td><a href="index.php">Home</a></td>
                 <td><a href="properties.php">Residential Properties</a></td>
                 <td><a href="realtors.php">Realtor Profiles</a></td>
-                <td><a href>Contact</a></td>
+                <td><a href="contact.php">Contact</a></td>
             </tr>
         </table>
     </div>
