@@ -1,7 +1,7 @@
 <?php
     //This PHP function will just inject the html of the header into this document
     include('./header.php');
-    require_once('./user_connection.php')
+    require_once('./user_connection.php');
 ?>
 
 <body>
