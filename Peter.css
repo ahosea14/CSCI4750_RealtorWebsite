@@ -5,6 +5,8 @@ Css for the nav bar
 :root {
 	/* Color palette */
 	--DARK-PURPLE: #221C35;
+	--PURPLE-HOVER: #4e495d;
+	--PURPLE-ACTIVE: #646072;
 	--BLUE: #2660A4;
 	--LIGHT-BLUE: #00AFB9;
 	--OFF-WHITE: #F5F1ED;
@@ -170,6 +172,23 @@ Css for the images of the realtors
 /*Css for contact info on contact.php*/
 .contact {
 	padding-left: 200px;
+}
+
+/* 
+Admin page
+*/
+.btn-primary {
+	background-color: var(--DARK-PURPLE) !important;
+	font-family: 'Oswald', sans-serif;
+	transition: background-color 100ms;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+	background-color: var(--PURPLE-HOVER) !important;
+}
+
+.btn-primary:active {
+	background-color: var(--PURPLE-ACTIVE) !important;
 }
 
 /*
