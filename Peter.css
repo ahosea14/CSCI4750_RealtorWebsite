@@ -177,6 +177,12 @@ Css for the images of the realtors
 /* 
 Admin page
 */
+
+#adminNav {
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+}
+
 .btn-primary {
 	background-color: var(--DARK-PURPLE) !important;
 	font-family: 'Oswald', sans-serif;
@@ -189,6 +195,32 @@ Admin page
 
 .btn-primary:active {
 	background-color: var(--PURPLE-ACTIVE) !important;
+}
+
+label {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500 !important;
+	color: var(--DARK-PURPLE);
+	font-size: 1.6rem;
+	border-bottom: 1px solid var(--GOLD);
+	padding-bottom: .5rem !important;
+	padding-right: 1rem !important;
+	margin-bottom: 1rem !important;
+}
+
+input:focus, textarea:focus {
+	border: 1px solid var(--GOLD) !important;
+	box-shadow: none !important;
+}
+
+textarea {
+	outline: none;
+	border-radius: 2px;
+	border: 1px solid lightgray;
+}
+
+.form-group {
+	margin-bottom: 2.5rem !important;
 }
 
 /*
