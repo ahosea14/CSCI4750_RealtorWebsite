@@ -182,4 +182,8 @@ footer {
 	color: var(--OFF-WHITE);
 	padding: 1rem;
 	font-family: 'Oswald', sans-serif;
+	position: relative;
+	bottom: 0;
+	left: 0;
+	right: 0;
 }
