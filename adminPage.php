@@ -34,7 +34,7 @@
     <!--End of nav bar-->
     <main>
         <div class="container" style="min-height: 760px">
-            <div class="row">
+            <div class="row" id="adminNav">
                 <div class="text-center">
                     <div class=" btn-group-lg">
                         <button type="button" class="btn btn-primary" onclick="reveal(document.getElementById('addPropertyListing'))">Add Property Listing</button>
@@ -68,8 +68,10 @@
                             <input name ="footage" type="number" class="form-control" id="" placeholder="Enter square footage of property">
                         </div>
                         <div class="form-group">
-                            <p><label for="">Brief Description</label></p>
-                            <textarea name ="description" rows="4" style="width:100%" placeholder="Enter a brief description of the property"></textarea>
+
+                            <label for="">Brief Description</label>
+                            <textarea rows="4" style="width:100%" placeholder="Enter a brief description of the property"></textarea>
+
                         </div>
                         <div class="form-group">
                             <label for="">Address</label>
@@ -95,12 +97,13 @@
                             <input name="lastName" type="text" class="form-control" id="" placeholder="Enter the realtor's last name">
                         </div>
                         <div class="form-group">
-                            <p><label for="">Brief Bio</label></p>
-                            <textarea name="bio" rows="4" style="width:100%" placeholder="Enter a brief biography"></textarea>
+                            <label for="">Brief Bio</label>
+                            <textarea rows="4" style="width:100%" placeholder="Enter a brief biography"></textarea>
                         </div>
                         <div class="form-group">
-                            <label for="phone">Phone Number</label>
-                            <input name="number" type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Enter the realtor's #">
+                            <label for="phone">Phone Number</label><br>
+                            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Enter the realtor's #">
+
                         </div>
 
                         <div class="form-group">
@@ -119,6 +122,7 @@
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
+
 					 
 					<!--Delete Realtor Form-->	
 					
@@ -127,6 +131,7 @@
                         <div class="form-group">
                             <label for="">Realtor ID To Delete</label>
                             <input name="realtorID" type="number" class="form-control" id="" placeholder="Enter realtor id">
+
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
