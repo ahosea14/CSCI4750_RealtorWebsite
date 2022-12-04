@@ -1,6 +1,7 @@
 ﻿<?php
     //This PHP function will just inject the html of the header into this document
     include('./header.php');
+
 ?>
 
 <body>
@@ -49,101 +50,101 @@
                 <div class="row">
 
                     <!--Add Property Form-->
-                    <form id="addPropertyListing" style="display: none">
+                    <form method = "POST" action="addProperty.php" id="addPropertyListing" style="display: none" enctype="multipart/form-data">
                         <div class="form-group">
                             <label for="">Price</label>
-                            <input type="number" class="form-control" id="" placeholder="Enter property listing price">
+                            <input name ="price" type="number" class="form-control" id="" placeholder="Enter property listing price">
                         </div>
                         <div class="form-group">
                             <label for="">Bedrooms</label>
-                            <input type="number" class="form-control" id="" placeholder="Enter number of bedrooms">
+                            <input name ="bedrooms" type="number" class="form-control" id="" placeholder="Enter number of bedrooms">
                         </div>
                         <div class="form-group">
                             <label for="">Bathrooms</label>
-                            <input type="number" class="form-control" id="" placeholder="Enter number of bathrooms">
+                            <input name ="bathrooms" type="number" class="form-control" id="" placeholder="Enter number of bathrooms">
                         </div>
                         <div class="form-group">
                             <label for="">Square Footage</label>
-                            <input type="number" class="form-control" id="" placeholder="Enter square footage of property">
+                            <input name ="footage" type="number" class="form-control" id="" placeholder="Enter square footage of property">
                         </div>
                         <div class="form-group">
                             <p><label for="">Brief Description</label></p>
-                            <textarea rows="4" style="width:100%" placeholder="Enter a brief description of the property"></textarea>
+                            <textarea name ="description" rows="4" style="width:100%" placeholder="Enter a brief description of the property"></textarea>
                         </div>
                         <div class="form-group">
                             <label for="">Address</label>
-                            <input type="text" class="form-control" id="" placeholder="Enter address of property" size="4">
+                            <input name ="address" type="text" class="form-control" id="" placeholder="Enter address of property" size="4">
                         </div>
 
                         <div class="form-group">
                             <label for="Property Image">Add Image</label>
-                            <input type="file" class="form-control-file" id="propertyImage">
+                            <input name="photo" type="file" class="form-control-file" id="propertyImage">
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" name="propertySubmit"class="btn btn-primary">Submit</button>
                     </form>
 
                     <!--Add Realtor Profile-->
 
-                    <form id="addRealtorProfile" style="display: none">
+                    <form method="POST" action="addRealtor.php" id="addRealtorProfile" style="display: none" enctype="multipart/form-data" >
                         <div class="form-group">
                             <label for="">First Name</label>
-                            <input type="text" class="form-control" id="" placeholder="Enter the realtor's first name">
+                            <input name="firstName" type="text" class="form-control" id="" placeholder="Enter the realtor's first name">
                         </div>
                         <div class="form-group">
                             <label for="">Last Name</label>
-                            <input type="text" class="form-control" id="" placeholder="Enter the realtor's last name">
+                            <input name="lastName" type="text" class="form-control" id="" placeholder="Enter the realtor's last name">
                         </div>
                         <div class="form-group">
                             <p><label for="">Brief Bio</label></p>
-                            <textarea rows="4" style="width:100%" placeholder="Enter a brief biography"></textarea>
+                            <textarea name="bio" rows="4" style="width:100%" placeholder="Enter a brief biography"></textarea>
                         </div>
                         <div class="form-group">
                             <label for="phone">Phone Number</label>
-                            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Enter the realtor's #">
+                            <input name="number" type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Enter the realtor's #">
                         </div>
 
                         <div class="form-group">
                             <label for="Realtor Image">Add Image</label>
-                            <input type="file" class="form-control-file" id="realtorImage">
+                            <input name="photo" type="file" class="form-control-file" id="realtorImage">
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
 
                     <!--Edit Property Form-->
-                    <form id="editPropertyListing" style="display: none">
+                    <form method = "POST" action="editProperty.php" id="editPropertyListing" style="display: none" enctype="multipart/form-data">
                         <div class="form-group">
                             <label for="">Price</label>
-                            <input type="number" class="form-control" id="" placeholder="Enter property listing price">
+                            <input name ="price" type="number" class="form-control" id="" placeholder="Enter property listing price">
 
                         </div>
                         <div class="form-group">
                             <label for="">Bedrooms</label>
-                            <input type="number" class="form-control" id="" placeholder="Enter number of bedrooms">
+                            <input name ="bedrooms" type="number" class="form-control" id="" placeholder="Enter number of bedrooms">
                         </div>
                         <div class="form-group">
                             <label for="">Bathrooms</label>
-                            <input type="number" class="form-control" id="" placeholder="Enter number of bathrooms">
+                            <input name ="bathrooms" type="number" class="form-control" id="" placeholder="Enter number of bathrooms">
                         </div>
                         <div class="form-group">
                             <label for="">Square Footage</label>
-                            <input type="number" class="form-control" id="" placeholder="Enter square footage of property">
+                            <input name ="footage" type="number" class="form-control" id="" placeholder="Enter square footage of property">
                         </div>
                         <div class="form-group">
                             <p><label for="">Brief Description</label></p>
-                            <textarea rows="4" style="width:100%" placeholder="Enter a brief description of the property"></textarea>
+                            <textarea name ="description" rows="4" style="width:100%" placeholder="Enter a brief description of the property"></textarea>
                         </div>
                         <div class="form-group">
                             <label for="">Address</label>
-                            <input type="text" class="form-control" id="" placeholder="Enter address of property">
+                            <input name ="address" type="text" class="form-control" id="" placeholder="Enter address of property">
                         </div>
 
                         <div class="form-group">
                             <label for="Property Image">Add Image</label>
-                            <input type="file" class="form-control-file" id="propertyImage">
+                            <input name="photo" type="file" class="form-control-file" id="propertyImage">
                         </div>
                         <div class="form-group">
                             <label for="">Property ID To Edit</label>
-                            <input type="number" class="form-control" id="" placeholder="Enter property id">
+                            <input name="propertyID" type="number" class="form-control" id="" placeholder="Enter property id">
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
