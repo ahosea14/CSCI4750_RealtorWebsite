@@ -4,7 +4,7 @@ Group project to develop a client's website
 
 # Students
 <ul>
-  <li>Ashleigh Hosea - Information Technology w/ Concentration in Web & Database</li>
+  <li>Ashleigh Hosea</li>
   <li>Robert Crutchfield</li>
   <li>William Stewart</li>
   <li>Jack Brown</li>
